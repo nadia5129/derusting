@@ -6,3 +6,5 @@ As you work through this exercise, write down anything that you needed to look u
 - Arraylist
 - Sort the list using the Collections library
 - HashMaps
+- ToStrings
+- Instance methods

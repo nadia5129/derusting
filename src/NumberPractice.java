@@ -23,7 +23,7 @@ public class NumberPractice {
 
     // Divide the number by another number using integer division
     int results = num /3;
-    System.out.println(results)
+    System.out.println(results);
 
     /*
      * Reminder!
