@@ -13,14 +13,22 @@ public class ArrayPractice {
 
 
     // Get the value of the array at index 2
+    System.out.println(myArray[2]);
    
 
     // Get the length of the array
+    System.out.println(myArray.length);
   
 
     // Iterate over the array using a traditional for loop and print out each item
+    for( int i = 0; i < myArray.length; i++){
+      System.out.println(myArray[i]);
+    }
 
     // Iterate over the array using a for-each loop and print out each item
+    for(String item : myArray ){
+      System.out.println(item);
+    }
 
     /*
      * Reminder!
