@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ListPractice {
@@ -12,9 +13,9 @@ public class ListPractice {
 
 
     // Add 3 elements to the list (OK to do one-by-one)
-    vtList.add(0, "string one");
-    vtList.add(1, "string two");
-    vtList.add(2,"string three");
+    vtList.add("string one");
+    vtList.add("string two");
+    vtList.add("string three");
 
 
     // Print the element at index 1
@@ -24,17 +25,27 @@ public class ListPractice {
     // (Do not insert a new value. The length of the list should not change)
     vtList.set(1, "new value");
     // Insert a new element at index 0 (the length of the list will change)
+    vtList.add(0, "new index 0");
 
     // Check whether the list contains a certain string
+    vtList.contains("certain string");
 
 
     // Iterate over the list using a traditional for-loop.
     // Print each index and value on a separate line
+    for(int i = 0; i < vtList.size(); i++){
+      System.out.println(i + "" + vtList.get(i));
+    }
 
     // Sort the list using the Collections library
+    Collections.sort(vtList);
+
 
     // Iterate over the list using a for-each loop
     // Print each value on a second line
+    for( String list : vtList){
+      System.out.println(list);
+    }
 
     /*
      * Usage tip!
