@@ -1,12 +1,21 @@
 
+     //maps uses put, get , remove, containskeys, containsvalue, size
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class MapPractice {
   public static void main(String[] args) {
     // Create a HashMap with String keys and Integer values and
     // assign it to a variable of type Map
+    Map<String, Integer> javaMap = new HashMap<>();
+
 
     // Put 3 different key/value pairs in the Map
     // (it's OK to do this one-by-one)
+    javaMap.put("mango",1);
+    javaMap.put("kiwi", 2);
+    javaMap.put("apple", 3);
 
     // Get the value associated with a given key in the Map
 
