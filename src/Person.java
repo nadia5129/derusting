@@ -56,16 +56,21 @@ Person p1 = new Person("coco", 10);
 
 
     // Print the first person
-System.out.println()
+System.out.println(p1);
     // Print the second person
+    System.out.println(p2);
 
     // Get the name of the first person and store it in a local variable
+    String localVar = p1.name;
 
     // Using the birthYear method, get the birth year of the first person
     // and store it in a local variable. Input the actual current year (e.g. 2025)
     // as the argument.
+    int birthYear = p1.birthYear(2026);
 
     // In a separate statement, print the local variable holding the birth year.
+    System.out.println(birthYear);
+
 
     /**
      * Terminology!
